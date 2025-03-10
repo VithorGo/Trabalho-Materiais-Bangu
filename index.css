@@ -1,0 +1,79 @@
+.propagandas{
+
+    text-align: center;
+
+}
+
+.curtidas{
+    
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    margin-right: 40px;
+
+}
+
+.containercompras{
+
+    background-color: yellow;
+    height: 300px;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.produto {
+
+    width: 250px;
+    background-color: white;
+    margin: 15px;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+
+}
+
+.produto img {
+
+    width: 100%;
+    border-radius: 10px;
+
+}
+
+.produto h3 {
+
+    font-size: 18px;
+    margin: 10px 0;
+    
+}
+
+.produto p {
+
+    color: #888;
+    font-size: 14px;
+
+}
+
+.produto .preco {
+
+    color: #e60000;
+    font-size: 20px;
+    font-weight: bold;
+
+}
+
+.botao-comprar {
+
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 15px;
+    background-color: red;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    
+}
